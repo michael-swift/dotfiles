@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+._*
+
+# Backups
+*.backup
+
+# Screenshot (optional - remove if you want to commit it)
+# screenshot.png
