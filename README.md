@@ -29,7 +29,7 @@ brew install --cask raycast
 
 ```bash
 # Clone this repo
-git clone https://github.com/YOUR_USERNAME/dotfiles.git ~/dotfiles
+git clone https://github.com/michael-swift/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 
 # Run install script
