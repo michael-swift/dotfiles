@@ -57,10 +57,11 @@ open -a Raycast
 ## Keybindings
 
 ### Window Management
-- `Cmd+H/J/K/L` - Focus window (left/down/up/right)
-- `Cmd+Shift+J/K/L/;` - Move window
+- `Alt+J/K/L/;` - Focus window (left/down/up/right)
+- `Alt+Shift+J/K/L/;` - Move window
 - `Cmd+Shift+Q` - Close window
-- `Cmd+Q` - Quit application
+
+> **Note:** Focus/move keys use `Alt` instead of `Cmd` to avoid conflicts with app shortcuts like `Cmd+K` (VS Code, Slack, etc.)
 
 ### Workspaces
 - `Cmd+1-9` - Switch to workspace

@@ -23,16 +23,16 @@ on-focused-monitor-changed = ['move-mouse monitor-lazy-center']
     end tell'
     '''
 
-    # i3 wraps focus by default
-    cmd-j =         'focus --boundaries-action wrap-around-the-workspace left'
-    cmd-k =         'focus --boundaries-action wrap-around-the-workspace down'
-    cmd-l =         'focus --boundaries-action wrap-around-the-workspace up'
-    cmd-semicolon = 'focus --boundaries-action wrap-around-the-workspace right'
+    # i3 wraps focus by default (using alt to avoid conflicts with app shortcuts)
+    alt-j =         'focus --boundaries-action wrap-around-the-workspace left'
+    alt-k =         'focus --boundaries-action wrap-around-the-workspace down'
+    alt-l =         'focus --boundaries-action wrap-around-the-workspace up'
+    alt-semicolon = 'focus --boundaries-action wrap-around-the-workspace right'
 
-    cmd-shift-j = 'move left'
-    cmd-shift-k = 'move down'
-    cmd-shift-l = 'move up'
-    cmd-shift-semicolon = 'move right'
+    alt-shift-j = 'move left'
+    alt-shift-k = 'move down'
+    alt-shift-l = 'move up'
+    alt-shift-semicolon = 'move right'
 
     # Using 'join-with' instead of 'split' because normalizations are enabled
     # Changed to Shift variants to avoid conflicting with copy/paste
